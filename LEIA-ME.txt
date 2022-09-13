@@ -1,0 +1,9 @@
+OBJETIVO
+- Criar um aplicativo aonde o USUÁRIO irá informar o VALOR DA DÍVIDA e os DIAS DE ATRASO (Entrada de Dados)
+- A aplicação irá verificar o juros que será usado pela condição: se os dias de atraso forem 15 ou menos, a taxa será de 5%, caso contrário a taxa será de 10%. Depois, a aplicação calculará o VALOR TOTAL COM JUROS (Processamento de Dados)
+- Por fim, a aplicação exibirá ao usuário o valor da dívida e os dias de atraso informados, além da taxa de juros e o valor total com os juros aplicados (Saída de Dados)
+
+ARQUITETURA DA APLICAÇÃO
+- O valor da dívida deve ser maior do que 0, caso contrário, a aplicação informa o problema ao usuário e encerra.
+- Dívidas com mais de 15 dias de atraso tem uma taxa de 10% de juros aplicada sobre o valor da dívida, já as dívidas com menos de 15 dias de atraso tem uma taxa de apenas 5% de juros sobre o valor da dívida.
+- Os juros só devem ser aplicados, se houver ao menos 1 dia de atraso, do contrário, o usuário é considerado "em dia" e a aplicação encerra com uma mensagem de aviso.
